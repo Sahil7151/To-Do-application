@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Griffy&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Griffy", cursive;
+}
+
+body {
+  background-color: rgb(227, 229, 236);
+}
+
+.header {
+  min-height: 18vh;
+  background: url("./bgimg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bolder;
+  position: sticky;
+  font-size: xx-large;
+  padding-top: 30px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  width: 90%;
+}
+
+.btn0 {
+  display: inline-block;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.colors {
+  text-align: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.btn-color {
+  width: 15%;
+  background: rgb(210, 170, 138);
+  font-weight: bold;
+  padding: 0.8rem;
+  border-radius: 50%;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.4s;
+}
+
+.btn-color:hover {
+  background: rgb(226, 194, 168);
+  text-decoration: underline;
+}
+
+.section-todo {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.form-todo {
+  min-height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.form-todo input {
+  min-height: 100%;
+}
+
+.form-todo input[type="text"] {
+  width: 78%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.form-todo input[type="submit"] {
+  width: 20%;
+  background: rgb(210, 170, 138);
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.4s;
+}
+
+.form-todo input[type="submit"]:hover {
+  background: rgb(226, 194, 168);
+  text-decoration: underline;
+}
+
+.todo-list {
+  text-align: center;
+  font-size: 1.2rem;
+  list-style-type: none;
+}
+
+.todo-list li {
+  padding: 0.7rem;
+  margin-top: 1rem;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  background: rgb(246, 216, 191);
+}
+
+.todo-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
